@@ -1,0 +1,18 @@
+<apex:page standardController="Account"  sidebar="false" showHeader="false"  standardStylesheets="false">
+<!--<apex:stylesheet value=" {! URLFOR($Resource.Style, 'style.css')} "/> -->
+
+<!--<apex:stylesheet value="http://developer.force.com/workbooks/vfdemo.css"/> -->
+<style>
+
+body {font-family: ComicSans Unicode MS, color:blue;}
+
+h1 {color:Blue; font-family: ComicSans Unicode MS;}
+</style> 
+
+<h1>My Styled Page</h1>
+
+<p>Great!</p>
+
+Redirigir<br/><apex:outputLink value="http://developer.force.com/">Click me!</apex:outputLink>
+
+</apex:page>

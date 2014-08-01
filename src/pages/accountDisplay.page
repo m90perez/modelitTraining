@@ -1,0 +1,21 @@
+<apex:page standardController="Account">
+    <apex:pageBlock title="My Account Contacts">
+<apex:pageBlockSection title="Custom Section Title">
+<apex:outputField value="{!account.Name}"/>
+<apex:outputField value="{!account.Owner.Name}"/>
+
+</apex:pageBlockSection>
+<apex:pageBlockTable value="{! account.contacts}" var="item">
+    <apex:column value="{! item.name}"/>
+</apex:pageBlockTable>
+
+</apex:pageBlock>
+
+    
+    <p>Hello {! $User.FirstName}!</p>
+    <p>You are viewing the {! account.name} account.</p>
+<p>Here's the Ticker Symbol field: {! account.TickerSymbol}</p>
+<p>Here's the owner of this account: {! account.Owner.Name}</p>
+<p>Aca esta el fax: {! account.fax}</p>
+<p>Aca esta el el id del ultimo usuario que realizo una modificacion: {! account.LastModifiedBy}</p>
+</apex:page>
