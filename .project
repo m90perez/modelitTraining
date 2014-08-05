@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>PruebaGitForce</name>
+	<name>Nueva</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,8 +10,14 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>com.salesforce.ide.builder.online</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>com.salesforce.ide.nature.default</nature>
+		<nature>com.salesforce.ide.nature.online</nature>
 	</natures>
 </projectDescription>
